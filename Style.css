@@ -1,0 +1,60 @@
+:root {
+  /* font family
+  --ff-primary: 'Dancing Script', cursive;
+  --ff-secondary: 'Caveat', cursive; */
+  /* font weigh */
+  --fw-reg: 300;
+  --fw-bold: 900;
+  /* color */
+  --clr-light: #97dde3;
+  --clr-dark: #3c5555;
+  --clr-accent: #16e0bd;
+  /* font sizes, always in rem */
+  --fs-h1: 3rem;
+  --fs-h2: 2.3rem;
+  --fs-h3: 1.3rem;
+  --fs-body: 2rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), /* box shadow*/
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+body {
+  display: flex;
+  margin: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+a {
+  display: block;
+  margin: 2em;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  /* display: block; */
+  margin: .9em;
+  text-align: center
+}
+
+.fields_main {
+  width: 10em;
+  height: 5em;
+  margin: 2em;
+  padding: 2em;
+  box-shadow: var(--bs);
+  border-radius: .5em;
+}
+
+.fields {
+  display: flex;
+  /* max-width: 10em; */
+  margin: .3em;
+  padding: .7em;
+  box-shadow: var(--bs);
+  border-radius: .3em;
+}
